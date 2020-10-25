@@ -32,7 +32,7 @@ class Pet:
         else:
             return f'You\'re {self.category} is nice and full'
 
-    def play(self, means):
+    def play(self):
         self.mood += self.play_effect
         self.fullness -= self.play_effect
         self.rested -= self.play_effect

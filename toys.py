@@ -4,6 +4,7 @@ class Toy:
     def __init__(self,name):
         self.name = name
         self.life = 100
+
     def __str__(self):
         return f'Name {self.name}\n Life {self.life}'
     
