@@ -39,7 +39,8 @@ class Pet:
         self.hydrated -= self.play_effect
 
     def playwithtoy(self, toy):
-        toy.played_with(self)
+        toy.played_with(self, toy)
+        return f'{self.name} is feeling happy now.'
 
 
 
