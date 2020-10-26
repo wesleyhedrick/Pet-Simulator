@@ -1,6 +1,6 @@
 toy_effects_data = {"Lizard": 
         {"string": 
-            {"mood": 60, "fullness": -10, "rested": -10, "hydrated": -10, "life": -10}, 
+            {"mood": 60, "fullness": -30, "rested": -50, "hydrated": -30, "life": -10}, "message":"Lizards love strings! ", 
         "ball": 
             {"mood": 10, "fullness": 0, "rested": 0, "hydrated": 0, "life": 0}, 
         "rope": 

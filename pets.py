@@ -9,6 +9,7 @@ class Pet:
         self.rested = 50
         self.hydrated = 100
         self.mood = 50
+        self.thing = 'Pet'
         
     def __str__(self):
         return f'Mood is {self.mood}\n Fullness is {self.fullness}\n Rested is {self.rested}\n Hydrated is {self.hydrated}\n'
@@ -41,7 +42,6 @@ class Pet:
     def playwithtoy(self, toy):
         toy.played_with(self, toy)
         return f'{self.name} is feeling happy now.'
-
 
 
 class Bird(Pet):

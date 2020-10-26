@@ -2,6 +2,7 @@ from toy_data import toy_effects_data
 
 class Toy:
     def __init__(self,name):
+        self.thing = 'Toy'
         self.name = name
         self.life = 100
 
